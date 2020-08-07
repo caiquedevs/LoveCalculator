@@ -1,68 +1,71 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h1 align="center">
+    <img alt="LoveCalculator" title="LoveCalculator" src="https://github.com/caiquedevs/LoveCalculator/blob/master/github/logo.svg" width="220px" />
+</h1>
 
-## Available Scripts
+<p align="center">
+  <a href="#-Tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-contribuir">Como contribuir</a>
+</p>
 
-In the project directory, you can run:
+<br>
 
-### `yarn start`
+<p align="center">
+  <img alt="LoveCalculator" src="https://github.com/caiquedevs/LoveCalculator/blob/master/github/template.svg" width="100%">
+</p>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🚀 Tecnologias
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-### `yarn test`
+- [React](https://reactjs.org)
+  - Axios - get
+  - Styled-Components
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 💻 Projeto
 
-### `yarn build`
+A LoveCalculator é um sistema web (jogo), onde o usuário pode inserir seu nome e de seu pretendente para receber a porcentagem de compatibilidade entre os dois.
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🔖 Layout
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+Você pode visualizar o layout do projeto no formato através [desse link](https://www.figma.com/file/yIN66CC06GXcmTuWQ7aQ80/Untitled?node-id=24%3A59). Lembrando que você irá precisar ter uma conta no [Figma](http://figma.com/).
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## :information_source: Como usar
 
-### `yarn eject`
+Para clonar e executar este aplicativo, você precisará [Git] (https://git-scm.com), [Node.js] [nodejs] + [Yarn] [yarn] instalado no seu computador.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Na sua linha de comando:
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Instalar Front-end
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+# Clonar este repositório
+$ git clone https://github.com/caiquedevs/LoveCalculator.git
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Entre no repositório
+$ cd LoveCalculator
 
-## Learn More
+# Instalar dependências
+$ yarn install
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+# Iniciar
+$ yarn start
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# executando na porta 3000
+```
 
-### Code Splitting
+## 🤔 Como contribuir
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+- Faça um fork desse repositório;
+- Cria uma branch com a sua feature: `git checkout -b minha-feature`;
+- Faça commit das suas alterações: `git commit -m 'feat: Minha nova feature'`;
+- Faça push para a sua branch: `git push origin minha-feature`.
 
-### Analyzing the Bundle Size
+Depois que o merge da sua pull request for feito, você pode deletar a sua branch.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
 
-### Making a Progressive Web App
+---
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+Feito com ♥ por Caiquedevs
